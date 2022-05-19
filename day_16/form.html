@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<fieldset>
+		<legend align="center">Registration Form</legend>
+		<form action="" method="get">
+			
+			<input type="text" id="course" name="s_course" value="Web Design" readonly="readonly" hidden="hidden"/>
+			<br/> <br/>
+			
+			<label for="myName">Name : </label> 
+			<input type="text" name="user_name" id="myName"value="Mr/Mrs" autofocus="on"/> <br/><br/>
+			
+			<label for="f_name">Father Name : </label> 
+			<input type="text" name="father_name" id="f_name" placeholder="Mr. Chowdhury"  autocomplete="off"/> <br/><br/>
+			
+			<label>Email : </label> 
+			<input type="email" name="user_email" placeholder="Email" autocomplete="off"/> <br/><br/>
+			
+			<label>Phone : </label> 
+			<input type="tel" name="user_tel" minlength="2" /> <br/><br/>
+			
+			<label>Password : </label> 
+			<input type="passowrd" name="user_pass" placeholder="min 6 charecter" minlength="6" maxlength="6"/> <br/><br/>
+			
+			<label>FB ID LINK : </label> 
+			<input type="url" name="fb_link"/> <br/><br/>
+			
+			<label>Monthly Income : </label> 
+			<input type="number" name="user_income" min="0" max="10"/> <br/><br/>
+			
+			<label>Color : </label> 
+			<input type="color" name="color"/> <br/><br/>
+			
+			<label>DOB : </label> 
+			<input type="date" name="dob"/> <br/><br/>
+			
+			<label>DOB with Time : </label> 
+			<input type="datetime-local" name="dob_and_time"/> <br/><br/>
+			
+			<label>Time : </label> 
+			<input type="time" name="time"/> <br/><br/>
+			
+			<label>Week : </label> 
+			<input type="week" name="week"/> <br/><br/>
+			
+			<label>Month : </label> 
+			<input type="month" name="month"/> <br/><br/>
+			
+			<label>Data Search (*): </label> 
+			<input type="search" name="user_search" required="required"/> <br/><br/><br/>
+			
+			<label for="user_msg">Message : </label> 
+			<textarea id="user_msg" placeholder="Message" name="user_msg" cols="40" rows="10" maxlength="256">Hello World</textarea>
+			<br/><br/>
+			
+			<input type="reset"/> 
+			<input type="submit"/> 
+		</form>
+	</fieldset>	
+</body>
+</html>

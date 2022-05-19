@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Registration Form | BITM</title>
+</head>
+<body>
+	<form action="" method="get">
+		<table border="0" cellspacing="0" cellpadding="0" width="80%" align="center">
+			<tr>
+				<td width="100%" colspan="3" align="center">
+					<h1>Create a Free Account</h1>
+					<p>Please input the fields with your informations</p>
+					<hr/>
+				</td>
+			</tr>
+			
+			<tr>
+				<td width="100%" colspan="3" align="left">
+					<label for="fullName">Full Name *</label> <br/>
+					<input type="text" name="fullname" id="fullName" value="" autofocus="autofocus" autocomplete="off" placeholder="Ex: Mr. Mohammad" size="140"/>
+				</td>
+			</tr>
+		</table>
+		
+		<br/>
+		
+		<table border="0" cellspacing="0" cellpadding="0" width="80%" align="center">
+			<tr>
+				<td width="50%">
+					<label for="userEmail">Email Address *</label> <br/>
+					<input type="email" name="user_email" id="userEmail" value="" autocomplete="off" placeholder="Ex: email@gmail.com" size="60"/>
+				</td>
+				<td width="50%">
+					<label for="userTel">Contact Number *</label> <br/>
+					<input type="tel" name="user_tel" id="userTel" value="" autocomplete="off" placeholder="Ex: 88-01515-000000" size="60" required="required" pattern="[8]{2}-[0-9]{5}-[0-9]{6}"/>
+				</td>
+			</tr>
+		</table>
+		
+		<br/>
+		
+		<table border="0" cellspacing="0" cellpadding="0" width="80%" align="center">
+			<tr>
+				<td width="33.33%">
+					<label for="division">Select Division *</label> <br/>
+					<select name="division" id="division">
+						<option value="">Select Division</option>
+						<option value="dk">Dhaka</option>
+						<option value="ctg">Chottogram</option>
+						<option value="raj">Rajshashi</option>
+						<option value="kh">Khulna</option>
+					</select>
+				</td>
+				<td width="33.33%">
+					<label for="district">Select District *</label> <br/>
+					<select name="district" id="district">
+						<option value="">Select District</option>
+						<option value="fn">Feni</option>
+						<option value="dk">Dhaka</option>
+						<option value="gp">Gopalgonj</option>
+						<option value="fd">Faridpur</option>
+						<option value="nk">Noakhali</option>
+					</select>
+				</td>
+				<td width="33.33%">
+					<label for="upazila">Select Upazila *</label> <br/>
+					<select name="upazila" id="upazila">
+						<option value="">Select Upazila</option>
+						<option value="fn">Feni</option>
+						<option value="dk">Dhaka</option>
+						<option value="gp">Gopalgonj</option>
+						<option value="fd">Faridpur</option>
+						<option value="nk">Noakhali</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		
+		<br/>
+		
+		<table border="0" cellspacing="0" cellpadding="0" width="80%" align="center">
+			<tr>
+				<td width="50%" align="right">
+					<input type="reset"/>
+				</td>
+				<td width="50%">
+					<input type="submit"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

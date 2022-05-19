@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<fieldset>
+		<legend align="center">Registration Form</legend>
+		<form action="" method="get">
+			<table border="0" width="100%" cellspacing="0" cellpadding="10">
+				<tr>
+					<td width="30%">
+						<label>Choose your Course</label>
+					</td>
+					<td width="5%">:</td>
+					<td width="65%">
+						<select name="course" required="required">
+							<option value="">Select Course</option>
+							<option value="Web Design">Web Design</option>
+							<option value="wd-php">Web Development - PHP</option>
+							<option value="wd-pyhton">Web Development - Python </option>
+							<option value="dm">Digital Marketing</option>
+						</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="30%">
+						<label>Choose your Language</label>
+					</td>
+					<td width="5%">:</td>
+					<td width="65%">
+						<input type="checkbox" name="select_lang" value="html
+						" id="html"/>
+						<label for="html">HTML</label>	<br/>
+						<input type="checkbox" name="select_lang" value="css" id="css"/> 
+						<label for="css">CSS</label>	<br/>
+						<input type="checkbox" name="select_lang" value="js"/> 
+						<label>JS</label>	<br/>
+						<input type="checkbox" name="select_lang" value="php"/> 
+						<label>PHP</label>	<br/>
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="30%">Is Employed</td>
+					<td width="5%"></td>
+					<td width="65%">
+						<input type="radio" id="yes" value="yes" name="employed"/>
+						<label for="yes">Yes</label>
+						<br/>
+						<input type="radio" id="no" value="no" name="employed"/>
+						<label for="no">No</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="30%"></td>
+					<td width="5%"></td>
+					<td width="65%">
+						<input type="submit"/>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</fieldset>
+</body>
+</html>	
